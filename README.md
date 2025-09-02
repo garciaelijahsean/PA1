@@ -101,8 +101,8 @@ def my_List(something):
 
 **Functions and how they work:** 
 
-something[:1] -> This function takes the first element of the list 
+- `something[:1]` -> This function takes the first element of the list 
 
-something[1:-1] -> This function takes everything in between the first and last elements 
+- `something[1:-1]` -> This function takes everything in between the first and last elements 
 
-something[-1:] -> This function takes the last element of the list 
+- `something[-1:]` -> This function takes the last element of the list 
