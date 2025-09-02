@@ -1,5 +1,5 @@
 ### ALPHABET SOUP PROBLEM: Create a function that takes a string and returns a string with its letters in alphabetical order.
-
+```python
 def alphabet_soup(string):
 
     return "".join(sorted(string))
@@ -8,27 +8,27 @@ def alphabet_soup(string):
     print(alphabet_soup("Aing"))
     print(alphabet_soup("keyboard"))
     print(alphabet_soup("jupyter"))
+```
+**Output:**
 
-*Output:*
+*ehllo*
 
-ehllo
+*Agin*
 
-Agin
+*abdekory*
 
-abdekory
-
-ejprtuy
+*ejprtuy*
 
 **Functions and how they work:**
 
-return -> This function sends a value back to where that function is called 
+- `return` -> This function sends a value back to where that function is called 
 
-sorted(string) -> This function takes the input and sorts the characters in alphabetical order, (regardless if it is capitalized or not), and outputs a list of characters 
+- `sorted(string)` -> This function takes the input and sorts the characters in alphabetical order, (regardless if it is capitalized or not), and outputs a list of characters 
 
-"".join() -> This function joins the list of characters into a single string 
-
-**EMOTICON PROBLEM:** Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon:
-
+- `"".join()` -> This function joins the list of characters into a single string 
+-------
+### EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon:
+```python
 def emotify(sentence): 
     
     if "smile" in sentence:
@@ -46,30 +46,30 @@ def emotify(sentence):
     print(emotify("You made me grin"))
     print(emotify("Why are you sad?"))
     print(emotify("I am angry"))
+```
+**Output:**
 
-*Output:*
+*Make me :)*
 
-Make me :)
+*You made me :D*
 
-You made me :D
+*Why are you :((?*
 
-Why are you :((?
-
-I am >:(
+*I am >:(*
 
 **Functions and how they work:** 
 
-if "(emoticon)" in sentence: -> An if statement. If conditions are met, it executes the code under it. If not, then moves to another if statement (elif (else if)).
+- `if "(emoticon)" in sentence:` -> An if statement. If conditions are met, it executes the code under it. If not, then moves to another if statement (elif (else if)).
 
-.replace(word, emoticon) -> This function swaps the word with its matching emoticon. 
+- `.replace(word, emoticon)` -> This function swaps the word with its matching emoticon. 
 - "smile" -> :)
 - "grin" -> :D
 - "sad" -> :((
 - "angry" -> >:(
 
-
-**UNPACKING LIST PROBLEM:** Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
-
+-------
+### UNPACKING LIST PROBLEM: Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
+```python
 def my_List(something):
 
     first = something[:1]
@@ -80,20 +80,21 @@ def my_List(something):
     print("Middle:", middle)
     print("Last: ", last)
     print("")
+```
+**Output:**
 
-*Output:*
+*First:  [1]*
 
-First:  [1]
+*Middle: [2, 3, 4, 5, 6, 8, 9]*
 
-Middle: [2, 3, 4, 5, 6, 8, 9]
+*Last:  [10]*
 
-Last:  [10]
+*First:  ['one']*
 
-First:  ['one']
+*Middle: ['two', 'three', 'four']*
 
-Middle: ['two', 'three', 'four']
+*Last:  ['five']*
 
-Last:  ['five']
 **Functions and how they work:** 
 
 something[:1] -> This function takes the first element of the list 
