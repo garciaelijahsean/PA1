@@ -1,4 +1,4 @@
-**ALPHABET SOUP PROBLEM:** Create a function that takes a string and returns a string with its letters in alphabetical order.
+### ALPHABET SOUP PROBLEM: Create a function that takes a string and returns a string with its letters in alphabetical order.
 
 def alphabet_soup(string):
 
@@ -9,7 +9,19 @@ def alphabet_soup(string):
     print(alphabet_soup("keyboard"))
     print(alphabet_soup("jupyter"))
 
-**Functions and how they work:** 
+*Output:*
+
+ehllo
+
+Agin
+
+abdekory
+
+ejprtuy
+
+**Functions and how they work:**
+
+return -> This function sends a value back to where that function is called 
 
 sorted(string) -> This function takes the input and sorts the characters in alphabetical order, (regardless if it is capitalized or not), and outputs a list of characters 
 
@@ -35,6 +47,16 @@ def emotify(sentence):
     print(emotify("Why are you sad?"))
     print(emotify("I am angry"))
 
+*Output:*
+
+Make me :)
+
+You made me :D
+
+Why are you :((?
+
+I am >:(
+
 **Functions and how they work:** 
 
 if "(emoticon)" in sentence: -> An if statement. If conditions are met, it executes the code under it. If not, then moves to another if statement (elif (else if)).
@@ -59,6 +81,19 @@ def my_List(something):
     print("Last: ", last)
     print("")
 
+*Output:*
+
+First:  [1]
+
+Middle: [2, 3, 4, 5, 6, 8, 9]
+
+Last:  [10]
+
+First:  ['one']
+
+Middle: ['two', 'three', 'four']
+
+Last:  ['five']
 **Functions and how they work:** 
 
 something[:1] -> This function takes the first element of the list 
