@@ -22,6 +22,7 @@ def alphabet_soup(string):
 
 *ejprtuy*
 
+  
 **Functions and how they work:**
 
 - `return` -> This function sends a value back to where that function is called 
